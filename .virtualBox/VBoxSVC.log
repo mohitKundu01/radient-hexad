@@ -1,0 +1,91 @@
+00:00:00.005126 main     VirtualBox COM Server 6.1.32 r149290 win.amd64 (Jan 17 2022 11:29:30) release log
+00:00:00.005128 main     Log opened 2022-03-23T03:44:14.001024500Z
+00:00:00.005129 main     Build Type: release
+00:00:00.005134 main     OS Product: Windows 10
+00:00:00.005135 main     OS Release: 10.0.19044
+00:00:00.005135 main     OS Service Pack: 
+00:00:00.099617 main     DMI Product Name: HP Laptop 15s-fq2xxx
+00:00:00.120772 main     DMI Product Version:  
+00:00:00.120792 main     Firmware type: UEFI
+00:00:00.121135 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.127070 main     Host RAM: 7834MB (7.6GB) total, 3123MB (3.0GB) available
+00:00:00.127088 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.127090 main     Process ID: 25272
+00:00:00.127091 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.287242          VirtualBox: object creation starts
+00:00:00.291659          Home directory: 'C:\Users\HP\.VirtualBox'
+00:00:00.293019          Installed Drivers:
+00:00:00.298114            C:\windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.32.49290)
+00:00:00.298762            C:\windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.32.49290)
+00:00:00.299175            C:\windows\system32\DRIVERS\VBoxSup.sys (Version: 6.1.32.49290)
+00:00:00.299725            C:\windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.32.49290)
+00:00:00.316806          Loading settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.325571          usbLibGetDevices: Starting USB device enumeration
+00:00:00.353601          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&300143a6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.354416          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&300143a6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.356149          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.359296          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00c)
+00:00:00.360720          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56c9)
+00:00:00.440098          HostDnsMonitor: initializing
+00:00:00.446432          HostDnsMonitor: updating information
+00:00:00.446436          HostDnsMonitor: unchanged
+00:00:00.489389          VD: VDInit finished with VINF_SUCCESS
+00:00:00.506918          Loading settings file "C:\Users\HP\VirtualBox VMs\Linux_\Linux_.vbox" with version "1.16-windows"
+00:00:00.516305          VirtualBox: object created
+00:00:06.076450          Launched VM: 73330560 pid: 16204 (0x3f4c) frontend: GUI/Qt name: Linux 
+00:00:15.105816          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:15.764629          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:10.523806 dns-monitor HostDnsMonitor: updating information
+00:03:10.523867 dns-monitor HostDnsMonitor: old information
+00:03:10.523872 dns-monitor   no server entries
+00:03:10.523876 dns-monitor   no domain set
+00:03:10.523880 dns-monitor   no search string entries
+00:03:10.523884 dns-monitor HostDnsMonitor: new information
+00:03:10.523888 dns-monitor   server 1: 172.16.20.28
+00:03:10.523893 dns-monitor   domain: dhcp.dhcp.local
+00:03:10.523896 dns-monitor   no search string entries
+00:03:31.008008 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:31.022922 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&300143a6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:03:31.023092 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&300143a6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:03:31.023362 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:03:33.698657 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:33.698887 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&300143a6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:03:33.701339 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:03:40.451698 dns-monitor HostDnsMonitor: updating information
+00:03:40.451724 dns-monitor HostDnsMonitor: unchanged
+00:06:12.239840 dns-monitor HostDnsMonitor: updating information
+00:06:12.239878 dns-monitor HostDnsMonitor: unchanged
+00:06:20.506480 dns-monitor HostDnsMonitor: updating information
+00:06:20.506545 dns-monitor HostDnsMonitor: unchanged
+00:09:00.534193 dns-monitor HostDnsMonitor: updating information
+00:09:00.534239 dns-monitor HostDnsMonitor: unchanged
+00:11:40.555884 dns-monitor HostDnsMonitor: updating information
+00:11:40.555956 dns-monitor HostDnsMonitor: unchanged
+00:14:20.586681 dns-monitor HostDnsMonitor: updating information
+00:14:20.586713 dns-monitor HostDnsMonitor: unchanged
+00:16:56.880819 dns-monitor HostDnsMonitor: updating information
+00:16:56.880880 dns-monitor HostDnsMonitor: unchanged
+00:16:58.942808 dns-monitor HostDnsMonitor: updating information
+00:16:58.942841 dns-monitor HostDnsMonitor: unchanged
+00:19:38.983439 dns-monitor HostDnsMonitor: updating information
+00:19:38.983513 dns-monitor HostDnsMonitor: unchanged
+00:22:18.448482 dns-monitor HostDnsMonitor: updating information
+00:22:18.448519 dns-monitor HostDnsMonitor: unchanged
+00:24:56.265589 dns-monitor HostDnsMonitor: updating information
+00:24:56.265625 dns-monitor HostDnsMonitor: unchanged
+00:24:58.521540 dns-monitor HostDnsMonitor: updating information
+00:24:58.521565 dns-monitor HostDnsMonitor: unchanged
+00:27:40.587370 dns-monitor HostDnsMonitor: updating information
+00:27:40.587455 dns-monitor HostDnsMonitor: unchanged
+00:30:20.613155 dns-monitor HostDnsMonitor: updating information
+00:30:20.613237 dns-monitor HostDnsMonitor: unchanged
+00:32:31.305383          Saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:32:31.329731          Saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:32:37.552437          Saving settings file "C:\Users\HP\VirtualBox VMs\Linux_\Linux_.vbox" with version "1.16-windows"
+00:32:37.744657 SaveState Saving settings file "C:\Users\HP\VirtualBox VMs\Linux_\Linux_.vbox" with version "1.16-windows"
+00:32:44.373248 main     VirtualBox: object deletion starts
+00:32:44.374432 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HP\VirtualBox VMs\Linux_\Linux_.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:32:44.377038 main     HostDnsMonitor: shutting down ...
+00:32:44.377099 main     HostDnsMonitor: shut down
+00:32:44.383227 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:32:44.383980 main     VirtualBox: object deleted
